@@ -10,7 +10,7 @@ const cache = new NodeCache({ stdTTL: 1800 }); // Cache saves data for 30 minute
 //                Lisbon     Leiria     Coimbra     Porto      Faro
 const cityIds = ["2267056", "2267094", "2740636", "2735941", "2268337"];
 
-// Insert here you API Key from OpenWeather
+// Insert here your API Key from OpenWeather
 const apiKey = ""
 
 // Get weather information of a city using OpenWeather API
